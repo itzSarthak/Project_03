@@ -1,0 +1,158 @@
+/* BoilerPlate */
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+}
+html,body
+{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgb(200, 155, 155);
+}
+#nav
+{
+  background-color: rgb(0,0,0);
+  height: 120px;
+  display: flex;
+  border-bottom: 5px solid red;
+}
+#left_nav
+{
+  width: 60%;
+}
+.logo
+{
+  width: 220px;
+  height: 110px;
+}
+#right_nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#right_nav h4
+{
+  margin: 0 40px;
+}
+#main
+{
+  display: flex;
+  background-color: rgb(200, 155, 155);
+}
+#main_left
+{
+  width: 50%;
+  height: 90vh;
+  position: relative;
+  bottom: 85px;
+}
+#main_text
+{
+  margin-top: 150px;
+  font-weight: 500;
+  margin-left: 35px;
+  font-size: 65px;
+  color: black;
+}
+.Sarthak
+{
+  color: rgb(41, 53, 147);
+}
+#main_right
+{
+  width: 50%;
+  height: 50%;
+}
+.right_img
+{
+  width: 80%;
+  height: 80%;
+  margin-top: 25px;
+}
+#right_nav a 
+{
+  text-decoration: none;
+  color: white;
+}
+#right_nav a h4:hover
+{
+  color: rgb(209, 124, 124);
+}
+#second_page
+{
+  height: 100vh;
+}
+#journey
+{
+  margin-top: 25px;
+  height: 80vh;
+  color: black;
+  position: relative;
+  bottom: 100px;
+}
+#journey h2
+{
+  margin: 5px 0px 2px 40px;
+  font-size: 40px;
+}
+#box1
+{
+  position: relative;
+  left: 10px;
+  margin: 15px;
+  width: 45%;
+}
+#box2
+{
+  position: relative;
+  margin: 25px;
+  left: 50%;
+  bottom: 15%;
+  width: 45%;
+}
+#journey h3
+{
+  padding-left: 20px;
+  font-size: 25px;
+}
+#journey p
+{
+  padding-left: 20px;
+  font-size: 25px;
+}
+#coding_handles
+{
+  height: 100px;
+  width: 35%;
+  position: relative;
+  bottom: 200px;
+  left: 180px;
+}
+#coding_handles img
+{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+}
+#footer
+{
+  /* height: 25vh; */
+  background-color: rgb(75, 71, 71);
+}
+#footer_box
+{
+  /* background-color: red; */
+  height: 80%;
+  width: 60%;
+  position: relative;
+  left: 18%;
+  text-align: center;
+  color: rgb(172, 172, 165);
+  margin: 25px;
+  padding: 50px;
+}
